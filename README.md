@@ -1,1 +1,3 @@
 # Automated-job-links-provider-to-email
+The main concept of this project is extract job links from job portals and send that links to email using web scraping concept. I’ve used beautiful soup library extract that job links and I’ve filtered it. example like posted within 2 days and skillsets. After I’ve used smtplib to send that links to email. I’ve also used timer module in this program. So, once we run the program every one or two days it will automatically send the job links to email. So, one or two days the new job links are automatically sent to emails. 
+I have used flask framework in this project.

@@ -1,0 +1,43 @@
+
+<div class="overlay">
+<!-- LOGN IN FORM by Omar Dsoky -->
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<form action="/homepage" method="post">
+   <!--   con = Container  for items in the form-->
+   <div class="con">
+   <!--     Start  header Content  -->
+   <header class="head-form">
+      <h2>Log In</h2>
+      <!--     A welcome message or an explanation of the login form -->
+      <p>login here using your username and password</p>
+   </header>
+   <!--     End  header Content  -->
+   <br>
+   <div class="field-set">
+     
+      <!--   user name -->
+         <span class="input-item">
+           <i class="fa fa-user-circle"></i>
+         </span>
+        <!--   user name Input-->
+         <input class="form-input" id="txt-input" name="uname" type="text" placeholder="UserName" autocomplete="off" required>
+     
+      <br><br>
+     
+           <!--   Password -->
+     
+      <span class="input-item">
+        <i class="fa fa-user-circle"></i>
+       </span>
+      <!--   Password Input-->
+      <input class="form-input" type="password" placeholder="Password" id="txt-input"  name="pword" required>
+         
+      <br><br>
+<!--        buttons -->
+<!--      button LogIn -->
+      <button class="log-in"> Log In </button>
+<br><br>
+   
+  <!-- End Form -->
+</form>
+</div>
